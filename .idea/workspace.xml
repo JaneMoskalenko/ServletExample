@@ -2,40 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3dc6176-4a31-4efd-a4bc-41c5cd487e72" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__postgresql_postgresql_9_1_901_1_jdbc4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/Controllers/LoginServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/Controllers/filters/WhiteList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/Model/POJOs/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/Model/connection/ConnectionManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/Model/dao/UserDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/Service/AutorizationService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/jsp_dashboard.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/jsp_login.jsp" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build.gradle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/FirstServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/libs/exploded/servletexample-1.0-SNAPSHOT.war/WEB-INF/classes/FirstServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gradlew" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gradlew.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/servlets/FirstServlet.java" afterPath="$PROJECT_DIR$/src/main/Controllers/DashBoardServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__log4j_log4j_1_2_17.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/log4j.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/LoginServlet.class" afterPath="$PROJECT_DIR$/build/classes/main/LoginServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/servletexample-1.0-SNAPSHOT.war/WEB-INF/classes/LoginServlet.class" afterPath="$PROJECT_DIR$/build/libs/exploded/servletexample-1.0-SNAPSHOT.war/WEB-INF/classes/LoginServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/servletexample-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/build/libs/servletexample-1.0-SNAPSHOT.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___ru_innopolis___servletexample_1_0_SNAPSHOT_war__exploded_.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___ru_innopolis___servletexample_1_0_SNAPSHOT_war__exploded_.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/servletexample.iml" afterPath="$PROJECT_DIR$/.idea/modules/servletexample.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/servletexample_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/servletexample_main.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/servletexample_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/servletexample_test.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/servletexample-1.0-SNAPSHOT.war/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/build/libs/exploded/servletexample-1.0-SNAPSHOT.war/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Controllers/LoginServlet.java" afterPath="$PROJECT_DIR$/src/main/Controllers/LoginServlet.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -235,8 +216,18 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
-              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="425">
+              <caret line="49" column="72" lean-forward="false" selection-start-line="49" selection-start-column="72" selection-end-line="49" selection-end-column="72" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="75" lean-forward="false" selection-start-line="3" selection-start-column="75" selection-end-line="3" selection-end-column="75" />
               <folding />
             </state>
           </provider>
@@ -269,11 +260,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginServlet.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LoginServlet.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/Controllers/LoginServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-14">
-              <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+            <state relative-caret-position="139">
+              <caret line="13" column="15" lean-forward="false" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -281,24 +272,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WhiteList.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WhiteList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Controllers/filters/WhiteList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="26" column="37" lean-forward="false" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+            <state relative-caret-position="321">
+              <caret line="34" column="14" lean-forward="false" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -327,6 +308,7 @@
     <findStrings>
       <find>ff23af42</find>
       <find>first</find>
+      <find>Request</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -518,8 +500,8 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4496445198096" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="3860352585" />
+        <entry key="$PROJECT_DIR$" value="4496449539254" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="4193214187" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="714125404" />
       </map>
     </option>
@@ -640,12 +622,14 @@
         <option value="$PROJECT_DIR$/src/main/Controllers/DashBoardServlet.java" />
         <option value="$PROJECT_DIR$/src/main/Model/POJOs/User.java" />
         <option value="$PROJECT_DIR$/src/main/Model/connection/ConnectionManager.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp_dashboard.jsp" />
         <option value="$PROJECT_DIR$/src/main/Model/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/Controllers/LoginServlet.java" />
         <option value="$PROJECT_DIR$/src/main/Controllers/filters/WhiteList.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/Controllers/LoginServlet.java" />
       </list>
     </option>
   </component>
@@ -660,7 +644,7 @@
     <option name="FILTER_WARNINGS" value="false" />
     <option name="FILTER_INFO" value="false" />
     <option name="FILTER_DEBUG" value="false" />
-    <option name="CUSTOM_FILTER" />
+    <option name="CUSTOM_FILTER" value="req" />
   </component>
   <component name="MavenProjectNavigator">
     <treeState />
@@ -983,32 +967,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="servletexample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="servletexample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="filters" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -1034,6 +992,7 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\IdeaProjects\servletexample\src\main\webapp\WEB-INF" />
       <recent name="C:\Users\admin\IdeaProjects\servletexample\src\main\webapp" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
     </key>
@@ -1626,10 +1585,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Gradle.servletexample1 [build]" />
-        <item index="1" class="java.lang.String" itemvalue="Gradle.servletexample [init]" />
-        <item index="2" class="java.lang.String" itemvalue="Gradle.C:/Users/admin/IdeaProjects/servletexample/build.gradle [gradle clean]" />
-        <item index="3" class="java.lang.String" itemvalue="Gradle.servletexample1 [war]" />
+        <item index="0" class="java.lang.String" itemvalue="Gradle.servletexample1 [war]" />
+        <item index="1" class="java.lang.String" itemvalue="Gradle.servletexample1 [build]" />
+        <item index="2" class="java.lang.String" itemvalue="Gradle.servletexample [init]" />
+        <item index="3" class="java.lang.String" itemvalue="Gradle.C:/Users/admin/IdeaProjects/servletexample/build.gradle [gradle clean]" />
         <item index="4" class="java.lang.String" itemvalue="Gradle.servletexample1 [clean]" />
       </list>
     </recent_temporary>
@@ -1651,12 +1610,12 @@
       <workItem from="1498586532104" duration="291000" />
       <workItem from="1498586864518" duration="1862000" />
       <workItem from="1498895132411" duration="4249000" />
-      <workItem from="1499261286220" duration="6337000" />
+      <workItem from="1499261286220" duration="9773000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12760000" />
+    <option name="totallyTimeSpent" value="16196000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1689,13 +1648,13 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.592" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4896" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30871493" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19645494" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19645494" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -2100,14 +2059,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Model/connection/ConnectionManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8">
@@ -2150,20 +2101,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Controllers/LoginServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/Controllers/filters/WhiteList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14">
-          <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        <state relative-caret-position="321">
+          <caret line="34" column="14" lean-forward="false" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Controllers/filters/WhiteList.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="26" column="37" lean-forward="false" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+        <state relative-caret-position="425">
+          <caret line="49" column="72" lean-forward="false" selection-start-line="49" selection-start-column="72" selection-end-line="49" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="75" lean-forward="false" selection-start-line="3" selection-start-column="75" selection-end-line="3" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Controllers/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="13" column="15" lean-forward="false" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

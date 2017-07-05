@@ -18,7 +18,8 @@
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Gradle: javax.servlet:javax.servlet-api:3.1.0" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/postgresql/postgresql/9.1-901-1.jdbc4/9bfabe48876ec38f6cbaa6931bad05c64a9ea942/postgresql-9.1-901-1.jdbc4.jar" />
+          <element id="library" level="project" name="Gradle: postgresql:postgresql:9.1-901-1.jdbc4" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/5af35056b4d257e4b64b9e8069c0746e8b08629f/log4j-1.2.17.jar" />
         </element>
       </element>
     </root>
