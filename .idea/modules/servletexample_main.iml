@@ -9,16 +9,6 @@
         <webroots>
           <root url="file://$MODULE_DIR$/../../src/main/webapp" relative="/" />
         </webroots>
-        <sourceRoots>
-          <root url="file://$MODULE_DIR$/../../src/main/java" />
-          <root url="file://$MODULE_DIR$/../../src/main/Service" />
-          <root url="file://$MODULE_DIR$/../../src/main/Model/dao" />
-          <root url="file://$MODULE_DIR$/../../src/main/Model/POJOs" />
-          <root url="file://$MODULE_DIR$/../../src/main/Model/connection" />
-          <root url="file://$MODULE_DIR$/../../src/main/Controllers" />
-          <root url="file://$MODULE_DIR$/../../src/main/Model" />
-          <root url="file://$MODULE_DIR$/../../src/main/resources" />
-        </sourceRoots>
       </configuration>
     </facet>
   </component>
@@ -28,17 +18,20 @@
     <content url="file://$MODULE_DIR$/../../src/main">
       <sourceFolder url="file://$MODULE_DIR$/../../src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../src/main/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../../src/main/Model/connection" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../src/main/Model/dao" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../src/main/Model/POJOs" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../src/main/Service" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../src/main/Controllers" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../src/main/webapp/WEB-INF" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Gradle: javax.servlet:javax.servlet-api:3.1.0" level="project" />
     <orderEntry type="library" name="Gradle: postgresql:postgresql:9.1-901-1.jdbc4" level="project" />
     <orderEntry type="library" name="Gradle: log4j:log4j:1.2.17" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-context:4.3.5.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-web:4.3.5.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-webmvc:4.3.5.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-aop:4.3.5.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-beans:4.3.5.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-core:4.3.5.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-expression:4.3.5.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: commons-logging:commons-logging:1.2" level="project" />
   </component>
 </module>

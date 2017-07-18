@@ -1,7 +1,7 @@
-package dao;
+package Model.dao;
 
-import POJOs.User;
-import connection.ConnectionManager;
+import Model.POJOs.User;
+import Model.connection.ConnectionManager;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -10,13 +10,11 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-/**
- * Created by admin on 01.07.2017.
- */
-public class UserDao {
+
+public class UserDao implements IUserDao{
     private static Connection connection = ConnectionManager.getConnection();
 
-    public static User getUserByLoginAndPassword(String login, String password) {
+    public  User getUserByLoginAndPassword(String login, String password) {
         User user = null;
 
         try (Statement statement = connection.createStatement()) {

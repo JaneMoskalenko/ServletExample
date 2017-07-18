@@ -6,15 +6,16 @@
     <display-name>Archetype Created Web Application</display-name>
     <filter>
         <filter-name>WhiteFilter</filter-name>
-        <filter-class>filters.WhiteList</filter-class>
+        <filter-class>Controllers.filters.WhiteList</filter-class>
     </filter>
     <filter-mapping>
         <filter-name>WhiteFilter</filter-name>
         <url-pattern>/dashboard</url-pattern>
     </filter-mapping>
-    <servlet>
+
+    <!--<servlet>
         <servlet-name>mainservlet</servlet-name>
-        <servlet-class>LoginServlet</servlet-class>
+        <servlet-class>Controllers.LoginServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>mainservlet</servlet-name>
@@ -23,10 +24,31 @@
 
     <servlet>
         <servlet-name>secondservlet</servlet-name>
-        <servlet-class>DashBoardServlet</servlet-class>
+        <servlet-class>Controllers.DashBoardServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>secondservlet</servlet-name>
         <url-pattern>/dashboard</url-pattern>
+    </servlet-mapping>-->
+
+    <servlet>
+        <servlet-name>mvc-dispatcher</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>mvc-dispatcher</servlet-name>
+        <url-pattern>/</url-pattern>
     </servlet-mapping>
+
+    <listener>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
+    <context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>/WEB-INF/mvc-dispatcher-servlet.xml</param-value>
+        <!--<param-value>WEB-INF/beans.xml</param-value>-->
+    </context-param>
+    
 </web-app>
